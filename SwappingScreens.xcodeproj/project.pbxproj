@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E392696B1DDF4DE300C60EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392696A1DDF4DE300C60EFC /* AppDelegate.swift */; };
-		E392696D1DDF4DE300C60EFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392696C1DDF4DE300C60EFC /* ViewController.swift */; };
+		E392696D1DDF4DE300C60EFC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392696C1DDF4DE300C60EFC /* LoginVC.swift */; };
 		E39269701DDF4DE300C60EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E392696E1DDF4DE300C60EFC /* Main.storyboard */; };
 		E39269721DDF4DE300C60EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39269711DDF4DE300C60EFC /* Assets.xcassets */; };
 		E39269751DDF4DE300C60EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39269731DDF4DE300C60EFC /* LaunchScreen.storyboard */; };
+		E392697D1DDF513600C60EFC /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392697C1DDF513600C60EFC /* MusicListVC.swift */; };
+		E392697F1DDF5CA600C60EFC /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392697E1DDF5CA600C60EFC /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E39269671DDF4DE300C60EFC /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E392696A1DDF4DE300C60EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E392696C1DDF4DE300C60EFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E392696C1DDF4DE300C60EFC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E392696F1DDF4DE300C60EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E39269711DDF4DE300C60EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E39269741DDF4DE300C60EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E39269761DDF4DE300C60EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E392697C1DDF513600C60EFC /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		E392697E1DDF5CA600C60EFC /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E392696A1DDF4DE300C60EFC /* AppDelegate.swift */,
-				E392696C1DDF4DE300C60EFC /* ViewController.swift */,
+				E392696C1DDF4DE300C60EFC /* LoginVC.swift */,
 				E392696E1DDF4DE300C60EFC /* Main.storyboard */,
 				E39269711DDF4DE300C60EFC /* Assets.xcassets */,
 				E39269731DDF4DE300C60EFC /* LaunchScreen.storyboard */,
 				E39269761DDF4DE300C60EFC /* Info.plist */,
+				E392697C1DDF513600C60EFC /* MusicListVC.swift */,
+				E392697E1DDF5CA600C60EFC /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E392696D1DDF4DE300C60EFC /* ViewController.swift in Sources */,
+				E392697D1DDF513600C60EFC /* MusicListVC.swift in Sources */,
+				E392697F1DDF5CA600C60EFC /* PlaySongVC.swift in Sources */,
+				E392696D1DDF4DE300C60EFC /* LoginVC.swift in Sources */,
 				E392696B1DDF4DE300C60EFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
